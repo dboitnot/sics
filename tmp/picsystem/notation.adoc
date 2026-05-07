@@ -1,0 +1,42 @@
+== Notation reference
+
+[%header,cols="1,2,4"]
+|===
+| Operator | Name | Use
+
+| `.0`–`.9`
+| Decimal subdivision
+| Numeric hierarchy under a class, e.g. `5305.12`
+
+| `'`
+| Synthesis special auxiliary
+| Combines a concept from outside the class, e.g. `9330.1'PETG`
+
+| `+`
+| Coordination
+| Two equally-ranked concepts
+
+| `:`
+| Relation
+| Generic non-symmetric link between concepts
+
+| `/`
+| Range
+| Span between two notations
+
+| `-03`
+| Material (UDC Table 1g)
+| e.g. `-034` metal, `-037` plastic
+
+| `(...)`
+| Place (UDC Table 1e)
+| e.g. `(D3.B2)` drawer 3 bin 2
+
+| `"..."`
+| Time (UDC Table 1c)
+| e.g. `"2024-08"` for batch or acquisition
+
+| `=...`
+| Language (UDC Table 1b)
+| e.g. `=eng` English-language packaging
+|===

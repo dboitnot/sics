@@ -1,0 +1,49 @@
+== Bibliography and references
+
+DLA H2: https://public.logisticsinformationservice.dla.mil/H2/search.aspx (public domain).
+
+UDC Summary: https://udcsummary.info/ (CC BY-SA 3.0, UDC Consortium 2013).
+
+Wikipedia articles cited (CC BY-SA 4.0):
+"`Universal Decimal Classification,`"
+"`USB hardware,`"
+"`List of audio connectors,`"
+"`List of video connectors,`"
+"`Hornbostel–Sachs,`"
+"`Curt Sachs,`"
+"`Erich von Hornbostel,`"
+"`Tripod (photography),`"
+"`E6B,`"
+"`Radio-controlled aircraft,`"
+"`Federal Standard 595,`"
+"`Paper size,`"
+"`ISO 216.`"
+
+MIL-STD-348B w/Change 4: https://landandmaritimeapps.dla.mil/Downloads/MilSpec/Docs/MIL-STD-348/std348.pdf (public domain).
+
+Hornbostel & Sachs (1914), _Zeitschrift für Ethnologie_ 46(4–5):553–590; PD in U.S., copyright in life+70 jurisdictions expires 1 January 2030.
+
+Sachs, _The History of Musical Instruments_ (Norton, 1940), pp. 447–467 (electrophone subdivisions).
+
+MIMO Project, _Revision of the Hornbostel-Sachs Classification_ (2011), https://cimcim.mini.icom.museum/resources/classification-of-musical-instruments/ (no explicit license; structure is uncopyrightable as a system).
+
+SAE-AMS-STD-595, formerly FED-STD-595 (cancelled 14 February 2017); underlying U.S. Government color codes are public domain.
+
+Standards referenced by number only::
+ISO 1043-1, ISO 216, ISO 269, ISO 1222, ISO 128, ISO 5457, ISO 9175-1, ISO 639-3, ISO 8601;
+ASME B18 series, ANSI/ASME Y14.1, ANSI/ASME Y14.5;
+ASTM E438, ASTM E960;
+AISI/SAE alloy designations;
+Aluminum Association designations;
+Unified Numbering System;
+USB Implementers Forum specifications.
+
+Sheffield list::
+Open de facto industry convention.
+
+Industry de facto standards::
+LiPo S/mAh/C designations;
+RC propeller diameter-by-pitch;
+lens mounts;
+filter thread sizes;
+pencil grades.

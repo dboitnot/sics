@@ -1,0 +1,89 @@
+= Personal Inventory Classification System — AsciiDoc source
+
+This directory contains the modular AsciiDoc source for the Personal Inventory Classification System guide.
+
+== File structure
+
+[source]
+----
+.
+├── index.adoc                          Master document; includes all sections
+├── README.adoc                         This file
+├── sources.adoc                        Source attribution
+├── architecture.adoc                   The four-layer architecture
+├── notation.adoc                       UDC notation reference
+├── card-design.adoc                    Card design and worked examples
+├── categories/
+│   ├── fasteners.adoc                  FSC 5305, 5306, 5310, 5315, 5325
+│   ├── metal-stock.adoc                FSC 9510, 9515, 9520, 9530, 9535
+│   ├── plastic-stock.adoc              FSC 9330
+│   ├── lubricants.adoc                 FSC 9150, 9160
+│   ├── abrasives.adoc                  FSC 5345, 5350
+│   ├── paints-coatings-adhesives.adoc  FSC 8010, 8030, 8040
+│   ├── wire-cable-connectors.adoc      FSC 6145, 5995, 5935
+│   ├── radio-gear.adoc                 FSC 5820, 5985
+│   ├── lab-glassware.adoc              FSC 6640
+│   ├── garden-tools.adoc               FSC 3750
+│   ├── smartphones-tablets.adoc        FSC 5820 (gap)
+│   ├── musical-instruments.adoc        FSC 7710, 7720
+│   ├── board-games.adoc                FSC 7820
+│   ├── office-supplies.adoc            FSC 7510, 7520, 7530
+│   ├── photography.adoc                FSC 6720–6780
+│   ├── mechanical-drawing.adoc         FSC 6675
+│   ├── wood-carving.adoc               FSC 5110, 5120
+│   └── aviation.adoc                   FSC 6605, 5826, 5965, 8460, 1550, 6140
+└── reference/
+    ├── cross-cutting-tables.adoc       Materials, place, time, language, paper sizes
+    ├── limitations.adoc                Known gaps and weak points
+    ├── governance.adoc                 Maintenance principles
+    └── bibliography.adoc               Sources and license attribution
+----
+
+== Building
+
+The master document is `index.adoc`.
+Build with any AsciiDoc-compliant toolchain.
+
+=== HTML
+
+[source,bash]
+----
+asciidoctor index.adoc
+----
+
+=== PDF
+
+[source,bash]
+----
+asciidoctor-pdf index.adoc
+----
+
+=== EPUB
+
+[source,bash]
+----
+asciidoctor-epub3 index.adoc
+----
+
+=== Single-file output
+
+To produce a single self-contained HTML file:
+
+[source,bash]
+----
+asciidoctor -a data-uri index.adoc
+----
+
+== Editing individual categories
+
+Each category file is self-contained and can be edited independently.
+The master `index.adoc` uses `include::` directives with `leveloffset=+1` so that each category's top-level `==` becomes a `===` subsection under the master "Category sections" heading.
+
+To add a new category:
+
+. Create a new file in `categories/` following the same structure as existing categories (top-level `==` heading).
+. Add an `include::` directive in `index.adoc` in the appropriate position.
+
+== License
+
+The guide content is licensed under https://creativecommons.org/licenses/by-sa/4.0/legalcode[CC BY-SA 4.0].

@@ -1,4 +1,0 @@
-[[ch06-tools-power]]
-== Power Tools
-
-// TODO: Classification of power and stationary tools for the home shop.

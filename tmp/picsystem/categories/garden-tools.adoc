@@ -1,0 +1,17 @@
+== Garden tools
+
+FSC 3750 Gardening implements and tools.
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 3750.1 | Manual hand tool (trowel, dibber)
+| 3750.2 | Rake
+| 3750.3 | Hoe / cultivator
+| 3750.4 | Pruner / lopper / shears
+| 3750.5 | Spade / shovel
+| 3750.6 | Watering (can, hose nozzle, wand)
+| 3750.7 | Spreader
+| 3750.8 | Powered (trimmer, mower, blower)
+|===

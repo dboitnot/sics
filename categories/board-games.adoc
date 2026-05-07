@@ -1,0 +1,22 @@
+== Board games
+
+FSC 7820 Games, toys, and wheeled goods.
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 7820.1 | Game (base game in box)
+| 7820.2 | Expansion
+| 7820.3 | Accessory (sleeves, dice trays, playmats)
+| 7820.4 | Dice
+| 7820.5 | Cards (loose decks)
+| 7820.6 | Tokens / miniatures
+| 7820.7 | Organizer / insert
+| 7820.8 | Gaming aid (reference cards, score pads)
+|===
+
+[NOTE]
+====
+BoardGameGeek taxonomy is proprietary; this guide identifies games by name and publisher only.
+====

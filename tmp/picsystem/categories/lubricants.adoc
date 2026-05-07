@@ -1,0 +1,28 @@
+== Lubricants
+
+FSC 9150 Oils and greases; FSC 9160 Miscellaneous waxes, oils, fats.
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 9150.1   | Oils
+| 9150.11  | Way oil
+| 9150.12  | Hydraulic
+| 9150.13  | Cutting fluid
+| 9150.14  | Penetrating
+| 9150.15  | Multi-purpose
+| 9150.16  | Gear
+| 9150.17  | Air-tool
+| 9150.2   | Greases
+| 9150.21  | General-purpose lithium
+| 9150.22  | Moly
+| 9150.23  | PTFE-loaded
+| 9150.24  | Marine / waterproof
+| 9150.25  | High-temperature
+| 9160.1   | Wax
+| 9160.2   | Silicone spray
+| 9160.3   | Anti-seize compound
+|===
+
+ISO viscosity grade (`'VG32`, `'VG46`, `'VG68`) attaches via `'` where labelled.

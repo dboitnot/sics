@@ -1,0 +1,138 @@
+== Fasteners
+
+=== FSC 5305 Screws
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 5305.1   | Cap screws
+| 5305.11  | Hex head cap screw
+| 5305.12  | Socket head cap screw
+| 5305.13  | Button head socket cap
+| 5305.14  | Flat head socket cap
+| 5305.15  | Low head socket cap
+| 5305.2   | Machine screws
+| 5305.21  | Pan head
+| 5305.22  | Flat (countersunk) head
+| 5305.23  | Round head
+| 5305.24  | Truss head
+| 5305.25  | Oval head
+| 5305.26  | Fillister head
+| 5305.27  | Binding head
+| 5305.3   | Wood screws
+| 5305.31  | Flat head
+| 5305.32  | Round head
+| 5305.33  | Oval head
+| 5305.4   | Self-tapping / sheet-metal screws
+| 5305.5   | Set screws
+| 5305.51  | Cup point
+| 5305.52  | Flat point
+| 5305.53  | Cone point
+| 5305.54  | Dog point
+| 5305.55  | Oval point
+| 5305.6   | Shoulder screws
+| 5305.7   | Thumb screws
+| 5305.8   | Specialty (captive, sex bolts)
+|===
+
+==== Drive type (synthesis facet)
+
+Applies to any screw class.
+
+[%header,cols="1,3"]
+|===
+| Code | Drive
+
+| `'01` | Slotted
+| `'02` | Phillips (cross-recessed PH)
+| `'03` | Pozidriv (PZ)
+| `'04` | Hex socket (Allen)
+| `'05` | Torx (six-lobe)
+| `'06` | Robertson (square)
+| `'07` | External hex
+|===
+
+=== FSC 5306 Bolts
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 5306.1 | Hex bolts (with washer face)
+| 5306.2 | Carriage bolts
+| 5306.3 | Plow bolts
+| 5306.4 | Eye bolts
+| 5306.5 | U-bolts
+| 5306.6 | J-bolts
+| 5306.7 | Anchor bolts
+|===
+
+=== FSC 5310 Nuts and washers
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 5310.1   | Hex nuts
+| 5310.11  | Plain machine hex
+| 5310.12  | Heavy hex
+| 5310.13  | Jam (thin)
+| 5310.2   | Lock nuts
+| 5310.21  | Nylon insert (Nyloc)
+| 5310.22  | All-metal locking
+| 5310.23  | Castle nut
+| 5310.24  | Slotted nut
+| 5310.3   | Wing nuts
+| 5310.4   | Cap (acorn) nuts
+| 5310.5   | Plain washers
+| 5310.51  | Standard (USS, narrow)
+| 5310.52  | Fender (wide)
+| 5310.53  | Thick
+| 5310.6   | Lock washers
+| 5310.61  | Split (helical)
+| 5310.62  | Internal tooth
+| 5310.63  | External tooth
+| 5310.7   | Belleville / conical
+|===
+
+=== FSC 5315 Pins
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 5315.1 | Dowel
+| 5315.2 | Roll (spring)
+| 5315.3 | Cotter (split)
+| 5315.4 | Hitch (lynch)
+| 5315.5 | Clevis
+| 5315.6 | Taper
+| 5315.7 | Knurled
+|===
+
+=== FSC 5325 Fastening devices
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 5325.1   | Rivets
+| 5325.11  | Solid
+| 5325.12  | Blind (pop)
+| 5325.13  | Tubular
+| 5325.2   | Threaded inserts
+| 5325.21  | Helical coil (Heli-Coil)
+| 5325.22  | Press-in
+| 5325.23  | Heat-set brass
+| 5325.3   | Anchors (drywall, masonry)
+| 5325.4   | Captive fasteners
+|===
+
+.Example
+[example]
+====
+`5305.21'02 M3-0.5x10 -034.5'304 (D1.B7)`
+
+Pan-head machine screw, Phillips drive, M3 × 10, 304 stainless, drawer 1 bin 7.
+====

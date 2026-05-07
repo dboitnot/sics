@@ -1,4 +1,0 @@
-[[ch07-electrical-electronics]]
-== Electrical and Electronics
-
-// TODO: Classification of electrical supplies and electronic components.

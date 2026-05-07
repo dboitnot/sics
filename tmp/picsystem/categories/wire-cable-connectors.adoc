@@ -1,0 +1,72 @@
+== Wire, cable, connectors
+
+FSC 6145 Wire and cable, electrical (bulk); FSC 5995 Cable, cord, and wire assemblies; FSC 5935 Connectors, electrical.
+
+=== FSC 6145 Bulk wire
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 6145.1 | Solid hookup
+| 6145.2 | Stranded hookup
+| 6145.3 | Shielded
+| 6145.4 | Coax (bulk)
+| 6145.5 | Multiconductor
+| 6145.6 | Magnet wire
+|===
+
+AWG attaches via `'`: `6145.2'22` = 22 AWG stranded.
+
+=== FSC 5995 Cable assemblies
+
+Notation: `5995.0<conn-end-1><conn-end-2>'<capability>[+<capability>]`.
+Connector codes from MIL-STD-348B (RF) and Wikipedia "`USB hardware`" (USB), supplemented by trade-standard names for audio/video.
+
+==== RF connectors (MIL-STD-348B)
+
+`BNC`, `TNC`, `SMA`, `SMB`, `N`, `UHF`, `F`, `MCX`, `MMCX`.
+
+==== USB connectors (USB-IF / Wikipedia)
+
+[%header,cols="1,3"]
+|===
+| Code | Connector
+| `UA` | USB Type-A
+| `UB` | USB Type-B
+| `NA` | Mini-A
+| `NB` | Mini-B
+| `MA` | Micro-A
+| `MB` | Micro-B
+| `UC` | USB Type-C
+|===
+
+==== Audio
+
+`TRS`, `TRRS`, `XLR`, `RCA`, `DIN`.
+
+==== Video / data
+
+`HDMI-A`, `HDMI-C`, `HDMI-D`, `DP`, `mDP`, `DVI-D`, `DVI-I`, `DVI-A`, `VGA`, `RJ45`.
+
+==== USB capabilities
+
+[%header,cols="1,3"]
+|===
+| Code | Capability
+| `'CHG`     | Charge only
+| `'D11`     | USB 1.1
+| `'D20`     | USB 2.0
+| `'D31G1`   | USB 3.2 Gen 1 (5 Gbps)
+| `'D32G2`   | USB 3.2 Gen 2 (10 Gbps)
+| `'D32G2X2` | USB 3.2 Gen 2×2 (20 Gbps)
+| `'D40`     | USB4 (40 Gbps)
+| `'TB3`     | Thunderbolt 3
+| `'TB4`     | Thunderbolt 4
+| `'PD`      | Power Delivery
+| `'AV`      | DisplayPort Alt Mode
+|===
+
+=== FSC 5935 Loose connectors
+
+Sub-class by family using same connector codes attached after 5935 with `'`: `5935'BNC`, `5935'UC`.

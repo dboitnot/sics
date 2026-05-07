@@ -1,4 +1,0 @@
-[[ch02-fsc-overview]]
-== FSC Overview
-
-// TODO: Summarize the Federal Supply Classification system and relevant codes.

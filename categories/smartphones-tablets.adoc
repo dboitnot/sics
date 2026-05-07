@@ -1,0 +1,14 @@
+== Smartphones and tablets
+
+FSC 5820 (gap noted).
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 5820.91 | Smartphone
+| 5820.92 | Tablet
+| 5820.93 | Smartwatch / wearable
+|===
+
+FSC 5820 is an imperfect home; documented as a known gap (see <<_limitations>>).

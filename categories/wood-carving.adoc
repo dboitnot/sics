@@ -1,0 +1,28 @@
+== Wood carving
+
+FSC 5110 Hand tools, edged, nonpowered; FSC 5120 Hand tools, nonedged, nonpowered.
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 5110.1 | Carving knife
+| 5110.2 | Gouge
+| 5110.3 | V-tool
+| 5110.4 | Carving chisel
+| 5110.5 | Riffler / file
+| 5110.6 | Strop
+| 5120.1 | Mallet
+|===
+
+Sheffield sweep via `'<sweep>-<width-mm>` (e.g. `'7-12` = sweep 7, 12 mm wide).
+V-tool angle via `'<angle>-<width>` (e.g. `'60-6` = 60° V-tool, 6 mm).
+
+Sheffield list:
+
+* `1` flat
+* `2`–`9` progressively deeper gouges (`9` = semicircle)
+* `10`–`11` deep U-gouges
+* `12`–`16` V-tools at 35° / 45° / 60° / 75° / 90°
+
+Wood blanks: file under `9510`/`9530` as raw stock with species code via `'`: `'BAS` basswood, `'BUT` butternut, `'TUP` tupelo, `'CHE` cherry, `'WAL` walnut, `'OAK` oak, `'MAH` mahogany, `'PIN` pine, `'JEL` jelutong.

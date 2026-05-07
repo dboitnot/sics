@@ -1,0 +1,54 @@
+== Aviation: pilot gear and model aviation
+
+=== Pilot gear
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 6605.1 | E6B / mechanical flight computer
+| 6605.2 | Electronic flight computer
+| 6605.3 | Plotter
+| 6605.4 | Fuel tester
+| 6605.5 | Compass
+| 5826.1 | Aviation handheld GPS / NavCom
+| 5965.1 | Aviation headset
+| 8460.1 | Flight bag
+| 8460.2 | Kneeboard
+|===
+
+Headset technology via `'`: `'PNR` passive, `'ANR` active, `'BT` Bluetooth.
+Plug type: `'GA` twin GA, `'LEMO` 6-pin, `'U174` helicopter, `'XLR5` airline 5-pin.
+
+=== Model aviation (FSC 1550, gap noted)
+
+Class formally restricted to military UAS; hobby model aviation filed here despite imperfect fit.
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 1550.1   | Fixed-wing
+| 1550.2   | Helicopter
+| 1550.3   | Multirotor / drone
+| 1550.4   | Glider
+| 1550.5   | Motors (brushless / brushed)
+| 1550.6   | Electronic speed controller
+| 1550.7   | Servo
+| 1550.8   | Propeller
+| 1550.91  | Transmitter
+| 1550.92  | Receiver
+| 1550.93  | Flight controller
+| 1550.94  | Video transmitter
+| 1550.95  | FPV goggles
+| 1550.96  | FPV camera
+|===
+
+Propeller size via `'<dia>x<pitch>` (e.g. `'10x4.5`).
+Motor KV via `'<n>KV`.
+Servo torque via `'<n>kgcm`.
+Protocol via `'`: `'DSMX`, `'FrSky`, `'ELRS`, `'Crossfire`, `'FASST`, `'AFHDS`.
+
+LiPo batteries under FSC 6140 with designation `'<n>S-<mAh>-<C>C` (e.g. `6140'4S-1500-75C`).
+
+Sectional and IFR enroute charts as physical objects file under `8460.1` (flight bag contents); chart cycle is 56 days, currency date recorded via `"YYYY-MM"`.

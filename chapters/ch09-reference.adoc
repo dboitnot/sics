@@ -1,4 +1,0 @@
-[[ch09-reference]]
-== Reference
-
-// TODO: Appendices, glossary, FSC cross-reference tables, and index.

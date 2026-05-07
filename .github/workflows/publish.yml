@@ -23,19 +23,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Asciidoctor and asciidoctor-pdf
-        run: |
-          gem install asciidoctor asciidoctor-pdf rouge
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@v14
+
+      - name: Enable Nix build cache
+        uses: DeterminateSystems/magic-nix-cache-action@v8
 
       - name: Set version from commit SHA
         id: version
         run: echo "version=$(git rev-parse --short HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Build HTML
-        run: just html
+        run: nix develop --command just html
 
       - name: Build PDF
-        run: just pdf
+        run: nix develop --command just pdf
 
       - name: Rename PDF with version
         run: cp build/sics.pdf build/sics-${{ steps.version.outputs.version }}.pdf

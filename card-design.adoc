@@ -1,0 +1,31 @@
+== Card design
+
+Header line: head code (FSC + numeric subdivisions + auxiliaries + place).
+Following lines: description, quantity, provenance, notes.
+
+.Worked example: stainless socket-head cap screws
+[example]
+====
+....
+5305.12'04 M3-0.5x12 -034.5'304 (D1.B4) "2024-08"
+24 ea, ISO 4762, McMaster 91292A115
+....
+
+Parses as: FSC 5305 Screws → `.12` socket-head cap → `'04` hex-socket drive → thread/length → `-034.5` metal/specific 304 stainless → place → time of acquisition.
+====
+
+.Worked example: USB-C cable assembly
+[example]
+====
+....
+5995.0UAUC'D32G2+PD (D2.B1)
+3 m, black, Anker A8857
+....
+
+Parses as: FSC 5995 Cable Assemblies → `.0` cable-assembly sub-grammar → connectors UA (USB-A) and UC (USB-C) → `'<capability>` D32G2 (USB 3.2 Gen 2) coordinated with PD (Power Delivery).
+====
+
+[NOTE]
+====
+*Governance rule*: a new sub-class must be entered on the reference sheet before its first card.
+====

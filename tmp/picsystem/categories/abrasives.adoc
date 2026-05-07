@@ -1,0 +1,23 @@
+== Abrasives
+
+FSC 5345 Disks and stones; FSC 5350 Abrasive materials.
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 5345.1 | Grinding wheel
+| 5345.2 | Cutoff disk
+| 5345.3 | Sharpening stone
+| 5345.4 | Flap wheel/disk
+| 5345.5 | Wire wheel
+| 5345.6 | Diamond plate
+| 5350.1 | Sandpaper sheet
+| 5350.2 | Sanding roll
+| 5350.3 | Sanding belt
+| 5350.4 | Loose grit / lapping compound
+| 5350.5 | Steel wool
+| 5350.6 | Abrasive pad (Scotch-Brite)
+|===
+
+Grit grade (FEPA-P or ANSI/CAMI) via `'`: `'P220`, `'P400`, `'A150`.

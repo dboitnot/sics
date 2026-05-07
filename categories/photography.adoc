@@ -1,0 +1,38 @@
+== Photography
+
+FSC 6720, 6730, 6740, 6750, 6760, 6780.
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 6720.1 | Digital camera body
+| 6720.2 | Film camera body
+| 6720.3 | Instant camera
+| 6740.1 | Enlarger
+| 6740.2 | Developing tank / reels
+| 6740.3 | Trays / safelights
+| 6750.1 | Film stock
+| 6750.2 | Photographic chemistry
+| 6750.3 | Photographic paper
+| 6760.1 | Lens
+| 6760.2 | Filter
+| 6760.3 | Tripod
+| 6760.4 | Tripod head / gimbal
+| 6760.5 | Memory card
+| 6760.6 | Battery / charger
+| 6760.7 | Lighting (strobe, continuous, modifier)
+|===
+
+Lens mount via `'` from de facto industry names: `'F` Nikon F, `'EF` Canon EF, `'RF` Canon RF, `'E` Sony E/FE, `'X` Fuji X, `'MFT` Micro Four Thirds, `'Z` Nikon Z, `'L` L-mount, `'K` Pentax K.
+Filter thread in mm via `'<size>`.
+Film format via `'135`, `'120`, `'4x5`, `'8x10`.
+ISO speed via `'ISO<n>`.
+
+.Example
+[example]
+====
+`6760.1'EF 50mm-f1.8 (D9.B3)`
+
+Canon EF mount, 50 mm f/1.8.
+====

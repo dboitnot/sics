@@ -1,0 +1,29 @@
+== Paints, coatings, adhesives
+
+FSC 8010 Paints, dopes, varnishes; FSC 8030 Preservative and sealing compounds; FSC 8040 Adhesives.
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 8010.1 | Paint, finish coat
+| 8010.2 | Primer
+| 8010.3 | Lacquer / shellac / varnish
+| 8010.4 | Stain
+| 8010.5 | Specialty (high-heat, marine, anti-slip)
+| 8030.1 | Sealant (silicone, polyurethane, butyl)
+| 8030.2 | Threadlocker (anaerobic)
+| 8030.3 | Anti-corrosion
+| 8030.4 | Wood preservative
+| 8040.1 | Epoxy
+| 8040.2 | Cyanoacrylate
+| 8040.3 | PVA wood glue
+| 8040.4 | Contact cement
+| 8040.5 | Polyurethane construction
+| 8040.6 | Hot-melt
+| 8040.7 | Spray adhesive
+|===
+
+Color via SAE-AMS-STD-595 five-digit codes attached as `'<code>` (e.g. `'17875` gloss insignia white).
+First digit: 1 gloss, 2 semi-gloss, 3 flat.
+Second digit: 0 brown, 1 red, 2 orange, 3 yellow, 4 green, 5 blue, 6 grey, 7 misc, 8 fluorescent.
