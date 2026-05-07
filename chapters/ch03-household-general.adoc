@@ -1,0 +1,4 @@
+[[ch03-household-general]]
+== Household General
+
+// TODO: Classification of general household items.

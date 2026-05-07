@@ -1,0 +1,82 @@
+name: Build and Publish
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Asciidoctor and asciidoctor-pdf
+        run: |
+          gem install asciidoctor asciidoctor-pdf rouge
+
+      - name: Set version from commit SHA
+        id: version
+        run: echo "version=$(git rev-parse --short HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Build HTML
+        run: just html
+
+      - name: Build PDF
+        run: just pdf
+
+      - name: Rename PDF with version
+        run: cp build/sics.pdf build/sics-${{ steps.version.outputs.version }}.pdf
+
+      - name: Upload HTML artifact for Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sics-pdf
+          path: build/sics-${{ steps.version.outputs.version }}.pdf
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download PDF artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: sics-pdf
+
+      - name: Create or update release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Latest Build
+          body: "Auto-generated from commit ${{ needs.build.outputs.version }}"
+          prerelease: false
+          make_latest: true
+          files: sics-${{ needs.build.outputs.version }}.pdf
+
+  deploy-pages:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

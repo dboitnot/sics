@@ -1,0 +1,27 @@
+= SICS: Supplemental Inventory Classification System
+:doctype: book
+:toc:
+:toclevels: 3
+:sectnums:
+:icons: font
+:source-highlighter: rouge
+
+A home and home-shop extension of the Federal Supply Classification (FSC) system.
+
+include::chapters/ch01-introduction.adoc[]
+
+include::chapters/ch02-fsc-overview.adoc[]
+
+include::chapters/ch03-household-general.adoc[]
+
+include::chapters/ch04-kitchen-food.adoc[]
+
+include::chapters/ch05-tools-hand.adoc[]
+
+include::chapters/ch06-tools-power.adoc[]
+
+include::chapters/ch07-electrical-electronics.adoc[]
+
+include::chapters/ch08-outdoor-garden.adoc[]
+
+include::chapters/ch09-reference.adoc[]

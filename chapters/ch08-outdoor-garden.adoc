@@ -1,0 +1,4 @@
+[[ch08-outdoor-garden]]
+== Outdoor and Garden
+
+// TODO: Classification of outdoor, garden, and yard care items.
