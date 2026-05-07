@@ -3,7 +3,7 @@ name: Build and Publish
 on:
   push:
     branches:
-      - main
+      - '**'
 
 permissions:
   contents: write
@@ -53,6 +53,7 @@ jobs:
 
   release:
     needs: build
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Download PDF artifact
@@ -72,6 +73,7 @@ jobs:
 
   deploy-pages:
     needs: build
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
