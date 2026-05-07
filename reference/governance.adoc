@@ -1,0 +1,23 @@
+== Governance
+
+One source of truth::
+The reference sheet at the front of the card drawer defines every active sub-class.
+If a code is not on the sheet, it does not exist.
+
+Define before write::
+A new sub-class must be entered on the reference sheet before its first card.
+
+Spec line carries the detail::
+Distinctions go in plain English on the spec line until they appear across multiple cards; only then are they promoted to a new sub-class.
+
+Quarterly review::
+Read the reference sheet end to end every three months.
+Single-card sub-classes are candidates for merging; recurring spec-line patterns are candidates for promotion.
+
+Two-FSC items::
+File under whichever class the cataloger reaches for first; record the other via `:` relation.
+
+New top-level category::
+Look up at https://public.logisticsinformationservice.dla.mil/H2/search.aspx[H2 search].
+If H2 has a fitting class, use it.
+If not, document the gap and assign a local code starting with `99`.

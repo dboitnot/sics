@@ -1,4 +1,0 @@
-[[ch04-kitchen-food]]
-== Kitchen and Food Storage
-
-// TODO: Classification of kitchen equipment and food storage items.

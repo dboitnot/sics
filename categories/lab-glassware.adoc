@@ -1,0 +1,24 @@
+== Lab glassware
+
+FSC 6640 Laboratory equipment and supplies.
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 6640.1   | Beaker
+| 6640.2   | Flask
+| 6640.21  | Erlenmeyer
+| 6640.22  | Round-bottom
+| 6640.23  | Volumetric
+| 6640.24  | Filter (Büchner)
+| 6640.3   | Graduated cylinder
+| 6640.4   | Test tube / culture tube
+| 6640.5   | Pipette / burette
+| 6640.6   | Petri dish
+| 6640.7   | Funnel
+| 6640.8   | Condenser
+|===
+
+Volume via `'<mL>`.
+Ground-glass joint via `'NS<size>` (e.g. `'NS24/40`).

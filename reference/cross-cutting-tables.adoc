@@ -1,0 +1,50 @@
+== Cross-cutting tables
+
+=== Materials (`-03` and trade designations)
+
+Append after head code via `-03` (UDC) followed by alloy / polymer / species designation.
+
+[%header,cols="2,3"]
+|===
+| Notation | Material
+
+| `-034.1`                                | Ferrous metal
+| `-034.4`                                | Aluminum
+| `-034.5`                                | Copper-base alloy
+| `-035.5`                                | Wood
+| `-037`                                  | Plastic
+| `-034.1'1018`                           | AISI/SAE 1018 carbon steel
+| `-034.1'4140`                           | AISI/SAE 4140 alloy steel
+| `-034.1'304L`, `'316L`                  | AISI 300-series stainless
+| `-034.4'6061-T6`, `'7075-T651`          | Aluminum Association
+| `-034.5'C36000`, `'C26000`              | UNS brass
+| `-037'PETG`, `'PLA`, `'ABS` …           | ISO 1043-1 polymer abbreviations
+|===
+
+=== Place auxiliary `(...)`
+
+Local convention: `(<bay>.<bin>)` for shop locations; `(US-<state>-<room>)` for cross-property reference.
+
+=== Time auxiliary `"..."`
+
+ISO 8601 form. `"2024-08"` month-precision acquisition; `"2025-12-15"` exact.
+Useful for batch/expiration on chemicals, adhesives, films, charts.
+
+=== Language auxiliary `=...`
+
+ISO 639-3 codes. `=eng`, `=fra`, `=deu`, `=jpn`.
+Useful for boxed games or instruments with bundled documentation in a specific language.
+
+=== Paper sizes
+
+ISO 216::
+A0 841×1189, A1 594×841, A2 420×594, A3 297×420, A4 210×297, A5 148×210, A6 105×148 mm.
+
+ANSI Y14.1::
+Letter 8.5×11, Legal 8.5×14, Tabloid 11×17, ANSI C 17×22, D 22×34, E 34×44 in.
+
+ARCH::
+A 9×12, B 12×18, C 18×24, D 24×36, E 36×48 in.
+
+ISO 269 envelopes::
+C4 229×324, C5 162×229, C6 114×162, DL 110×220 mm.

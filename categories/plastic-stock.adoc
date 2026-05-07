@@ -1,0 +1,27 @@
+== Plastic stock and 3D printer filament
+
+FSC 9330 Plastic Fabricated Materials.
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 9330.1   | Filament (3D printing)
+| 9330.11  | 1.75 mm diameter
+| 9330.12  | 2.85 mm diameter
+| 9330.2   | Sheet
+| 9330.3   | Rod
+| 9330.4   | Tube
+| 9330.5   | Granulate / pellets
+| 9330.6   | Adhesive-backed sheet
+|===
+
+Polymer code via `'` from ISO 1043-1: `'PETG`, `'PLA`, `'ABS`, `'PC`, `'POM`, `'PTFE`, `'PEEK`, `'HDPE`, `'LDPE`, `'PP`, `'PVC`, `'PMMA`, `'TPU`, `'PA`.
+
+.Example
+[example]
+====
+`9330.11'PETG (B5.B1) "2025-12"`
+
+1.75 mm PETG filament, opened December 2025.
+====

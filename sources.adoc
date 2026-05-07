@@ -1,0 +1,26 @@
+== Source attribution
+
+DLA Cataloging Handbook H2 (FSC), public domain.
+78 groups, 646 classes; groups 21, 27, 33, 50, 57, 64, 82, 86, 90, 92, 97, 98 unassigned.
+https://public.logisticsinformationservice.dla.mil/H2/search.aspx[H2 search portal].
+
+UDC Summary (UDCC Pub. 088, 2013), CC BY-SA 3.0; one-way compatible with CC BY-SA 4.0.
+https://udcsummary.info/[UDC Summary].
+
+Wikipedia articles cited herein, CC BY-SA 4.0 since 29 June 2023.
+
+MIL-STD-348B w/Change 4 (RF connector interfaces), public domain.
+https://landandmaritimeapps.dla.mil/Downloads/MilSpec/Docs/MIL-STD-348/std348.pdf[MIL-STD-348B PDF].
+
+Hornbostel & Sachs, "`Systematik der Musikinstrumente. Ein Versuch,`" _Zeitschrift für Ethnologie_ 46(4–5):553–590 (1914).
+Public domain in the U.S.; in life+70 jurisdictions, copyright expires 1 January 2030 (Sachs d. 1959).
+The numerical system itself is uncopyrightable.
+
+MIMO 2011 Hornbostel-Sachs revision: numerical structure reusable as a system; prose carries default copyright and is not reproduced.
+
+SAE-AMS-STD-595 (formerly FED-STD-595, cancelled 14 February 2017): underlying U.S. Government color codes are public domain.
+
+ISO, ASME, ASTM, IFI, IEC standards: paywalled.
+Designations (e.g. M3-0.5, A4, PETG, 6061-T6) are factual and used freely; substantive content is not reproduced.
+
+Sheffield list of carving-gouge sweeps: open de facto convention.

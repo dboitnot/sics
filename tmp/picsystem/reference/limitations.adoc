@@ -1,0 +1,26 @@
+== Limitations
+
+FSC fits some modern objects poorly: smartphones at 5820, hobby drones at 1550 (formally restricted to military UAS).
+Documented on the reference sheet rather than reclassified.
+
+ASME B18, ASTM E438/E960, ISO 128/216/269/1043-1/1222/5457, IEC 60320 are paywalled.
+Designations are factual; substantive prose is not reproduced.
+
+The Sheffield gouge list is a de facto convention, not a strict standard.
+Pfeil, Ashley Iles, Henry Taylor, Two Cherries, Auriou, Stubai deviate at the margins.
+Manufacturer convention recorded per tool.
+
+The 2011 MIMO H-S revision PDF carries no Creative Commons license.
+Numerical structure is reusable as a system; prose is not, and is paraphrased here.
+
+The 1961 Baines-Wachsmann translation in _Galpin Society Journal_ 14 remains under copyright.
+Numerical codes are factual; prose is not.
+
+BoardGameGeek taxonomy is proprietary.
+Game names and publishers are factual; the curated category and mechanism taxonomy is not.
+
+LiPo C-ratings are routinely inflated by manufacturers.
+Record the nameplate but plan motor and ESC sizing on measured current draw.
+
+FAA aeronautical chart cycle is 56 days as of 25 February 2021.
+Charts have currency dates; record via `"..."` time auxiliary.

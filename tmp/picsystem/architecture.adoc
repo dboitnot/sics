@@ -1,0 +1,10 @@
+== Architecture
+
+Four layers.
+
+. *Layer 1*, the FSC four-digit class, is the bin.
+. *Layer 2* is the UDC notation grammar (operators only, not the schedules).
+. *Layer 3* is the UDC common auxiliaries: material `-03`, place `(...)`, time `"..."`, language `=...`.
+. *Layer 4* is locally-defined numeric sub-classes under each FSC, using named codes only where a public standard supplies them.
+
+Time and language auxiliaries are part of the system and available whenever useful (acquisition or batch dates, language of bundled documentation), even if rarely needed for objects.

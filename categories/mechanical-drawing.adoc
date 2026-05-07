@@ -1,0 +1,26 @@
+== Mechanical drawing
+
+FSC 6675 Drafting, surveying, and mapping instruments.
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 6675.1   | T-square
+| 6675.2   | Triangle / set square
+| 6675.3   | Compass
+| 6675.4   | Divider
+| 6675.5   | Scale (engineer, architect, metric)
+| 6675.6   | Protractor
+| 6675.7   | French curve / templates
+| 6675.8   | Drafting machine
+| 6675.91  | Technical pen
+| 6675.92  | Drafting pencil
+| 6675.93  | Drafting eraser / shield
+| 6675.94  | Drawing media (loose paper, vellum, mylar)
+| 6675.95  | Storage (flat file, drawing tube)
+|===
+
+Pen line width per ISO 9175-1: `'0.13`, `'0.18`, `'0.25`, `'0.35`, `'0.5`, `'0.7`, `'1.0`, `'1.4`, `'2.0`.
+Pencil grade: `'9H` to `'9B`.
+Sheet size via ISO 5457 / ANSI Y14.1 / ARCH names.

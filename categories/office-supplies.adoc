@@ -1,0 +1,36 @@
+== Office supplies
+
+FSC 7510 Office supplies; FSC 7520 Office devices and accessories; FSC 7530 Stationery and record forms.
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 7510.1   | Pens
+| 7510.11  | Ballpoint
+| 7510.12  | Rollerball
+| 7510.13  | Gel
+| 7510.14  | Felt-tip / fineliner
+| 7510.15  | Fountain
+| 7510.16  | Brush
+| 7510.2   | Pencils
+| 7510.21  | Wooden graphite
+| 7510.22  | Mechanical
+| 7510.23  | Colored
+| 7510.3   | Markers / highlighters
+| 7510.4   | Erasers
+| 7510.5   | Tape (PSA)
+| 7510.6   | Art supply (paint, crayon, pastel)
+| 7520.1   | Stapler / staples
+| 7520.2   | Paper punch
+| 7520.3   | Scissors
+| 7520.4   | Calculator
+| 7530.1   | Loose paper
+| 7530.2   | Notebook / pad
+| 7530.3   | Envelope
+| 7530.4   | Folder / file
+|===
+
+Paper size via `'` from ISO 216 / ANSI Y14.1 / ARCH: `'A4`, `'Letter`, `'Tabloid`, `'ARCH-D`, `'C5` (envelope).
+Pencil grade via `'`: `'2H`, `'HB`, `'4B`.
+Pen tip in mm via `'`: `'0.5`, `'0.7`.

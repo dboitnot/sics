@@ -1,0 +1,45 @@
+== Musical instruments
+
+FSC 7710 Musical instruments; FSC 7720 Musical instrument parts and accessories.
+
+Top-level via Hornbostel-Sachs (1914), attached as `7710'<H-S code>`.
+The H-S numbers themselves are the sub-class.
+
+[%header,cols="1,3"]
+|===
+| H-S | Top category
+
+| 1 | Idiophones
+| 2 | Membranophones
+| 3 | Chordophones
+| 4 | Aerophones
+| 5 | Electrophones (Sachs 1940)
+|===
+
+H-S subdivides decimally (e.g. 321.322 = necked lute, plucked, with mechanical action).
+Use as much depth as needed.
+
+=== FSC 7720 Accessories
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 7720.1 | Strings
+| 7720.2 | Reeds
+| 7720.3 | Mouthpieces
+| 7720.4 | Picks / plectra
+| 7720.5 | Bows
+| 7720.6 | Cleaning, polish, oil
+| 7720.7 | Cases
+| 7720.8 | Stands
+| 7720.9 | Tuners / forks
+|===
+
+.Example
+[example]
+====
+`7710'321.322 (D7.B1)`
+
+Electric guitar (chordophone, lute-type, plucked).
+====

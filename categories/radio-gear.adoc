@@ -1,0 +1,20 @@
+== Radio gear
+
+FSC 5820 Radio and television communication equipment, except airborne; FSC 5985 Antennas, waveguides.
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 5820.1 | Receiver only
+| 5820.2 | Transmitter only
+| 5820.3 | Transceiver
+| 5985.1 | Antenna
+| 5985.2 | Feedline component (balun, choke, arrestor)
+| 5985.3 | SWR / power meter
+| 5985.4 | Antenna tuner
+|===
+
+Form factor via `'`: `'HT` handheld, `'MB` mobile, `'BS` base, `'DS` desktop.
+Mode via `'`: `'CW`, `'SSB`, `'FM`, `'FT8`, `'DMR`, `'DSTAR`, `'C4FM`, `'M17`.
+Band as `'<meters>m`: `'40m`, `'2m`, `'70cm`.

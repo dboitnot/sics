@@ -1,0 +1,34 @@
+== Metal stock
+
+[%header,cols="1,3"]
+|===
+| Code | Sub-class
+
+| 9510.1 | Round bar (ferrous)
+| 9510.2 | Square bar
+| 9510.3 | Hex bar
+| 9510.4 | Rectangular (flat) bar
+| 9515.1 | Plate (≥ 6 mm)
+| 9515.2 | Sheet
+| 9515.3 | Strip
+| 9515.4 | Foil
+| 9520.1 | Angle
+| 9520.2 | Channel
+| 9520.3 | I/W beam
+| 9520.4 | Round tube/pipe
+| 9520.5 | Square/rectangular tube
+| 9520.6 | T-bar
+| 9520.7 | Z-bar
+| 9530.1–.4 | Round, square, hex, rectangular bar (nonferrous)
+| 9535.1–.4 | Plate, sheet, strip, foil (nonferrous)
+|===
+
+Alloy designation attaches via `'` from open standards: AISI/SAE for steel (`'1018`, `'4140`, `'304L`, `'316L`); Aluminum Association (`'6061-T6`, `'7075-T651`); UNS for copper alloys (`'C36000`, `'C26000`).
+
+.Example
+[example]
+====
+`9510.1'1018 1/2"x36" (S2.R3)`
+
+1018 cold-rolled round bar, 1/2″ × 36″.
+====
